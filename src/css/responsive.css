@@ -1,0 +1,69 @@
+@media (max-width: 576px) {
+    body {
+        background: url(../images/bg-pattern-top-mobile.svg),
+            url(../images/bg-pattern-bottom-mobile.svg) bottom;
+        background-repeat: no-repeat, no-repeat;
+        height: 100%;
+    }
+
+    .container {
+        grid-template-areas:
+            "introduction"
+            "ratings"
+            "feedback"
+            "feedback";
+    }
+
+    .introduction {
+        text-align: center;
+    }
+
+    .introduction .title {
+        font-size: 4rem;
+        padding-top: 5rem;
+    }
+
+    .introduction .description {
+        font-size: 1.6rem;
+        margin: 0 2.6rem;
+    }
+
+    .ratings ul {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .ratings ul li {
+        flex-direction: column;
+    }
+
+    .ratings ul li::before{
+        padding-bottom: 2rem;
+    }
+
+    .customer-feedback {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 4rem;
+        padding-top: 4rem;
+    }
+
+    .customer-feedback .feedback{
+        width: 35rem;
+        height: 25rem;
+    }
+
+    .feedback .coment {
+       width: 100%;
+    }
+
+    .ratings ul li:last-child{
+        align-self: center;
+    }
+    
+    .ratings ul li:first-child{
+        align-self: center;
+    }
+}

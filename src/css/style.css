@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: url(../images/bg-pattern-top-desktop.svg),
+                url(../images/bg-pattern-bottom-desktop.svg) right top;
+    background-repeat: no-repeat, no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'League Spartan', sans-serif;
+    max-width: 1440px;
+}
+
+.container {
+    display: grid;
+    grid-template-areas:
+        "introduction ratings"
+        "feedback feedback";
+}
+
+.introduction {
+    grid-area: introduction;
+    width: 35rem;
+}
+
+.introduction .title {
+    font-weight: 700;
+    font-size: 5rem;
+    color: var(--feedback-title-color);
+    padding-bottom: 2rem;
+}
+
+.introduction .description {
+    font-size: 1.5rem;
+    color: var(--text-color);
+    padding-bottom: 5rem;
+}
+
+.ratings {
+    grid-area: ratings;
+    font-weight: 700;
+}
+
+.ratings ul {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.ratings ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    background-color: var(--background-ratings);
+    color: var(--feedback-title-color);
+    border-radius: 1rem;
+    padding: 1.5rem;
+    width: 35rem;
+}
+
+.ratings ul li:last-child{
+    align-self: flex-end;
+}
+
+.ratings ul li:first-child{
+    align-self: flex-start;
+}
+
+.ratings ul li::before {
+    content: url(../images/icon-star.svg)
+             url(../images/icon-star.svg)
+             url(../images/icon-star.svg)
+             url(../images/icon-star.svg)
+             url(../images/icon-star.svg);
+
+    padding-right: 1rem;
+}
+
+.customer-feedback {
+    grid-area: feedback;
+    display: flex;
+    gap: 1rem;
+}
+
+.customer-feedback .feedback {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    width: 30rem;
+    font-size: 1.5rem;
+    background-color: var(--feedback-title-color);
+    color: white;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+.feedback .profile {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.feedback .profile img {
+    width: 4rem;
+    border-radius: 50%;
+}
+
+.feedback .profile .info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.feedback .coment {
+    padding-top: 3rem;
+}
+
+.feedback .profile .info .verification {
+    color: var(--verified-color);
+}
