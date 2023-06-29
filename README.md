@@ -12,7 +12,7 @@ Os usuários devem ser capazes de:
 
 ### 🔗 Links 
 
-- [Solução no Frontend Mentor](https://www.frontendmentor.io/solutions/single-price-component-with-grid-and-flex-PMZ7zlHICj)
+- [Solução no Frontend Mentor](https://www.frontendmentor.io/solutions/social-proof-section-using-grid-and-flex-C-YcWS7Ddc)
 
 - [Deployment no Github Pages](https://fransuelton.github.io/social-proof-section/)
 
@@ -31,7 +31,7 @@ Esse desafio foi excelente para aprimorar meu conhecimento sobre o uso de grid e
 
 Estou prestes a começar a desenvolver meu portfólio e espero concluí-lo em breve. Continuo me aprofundando no estudo de HTML e CSS, mas tenho planos de incorporar o JavaScript aos meus projetos em breve.
 
-## 🙋 Autor
+### 🙋 Autor
 
 - Perfil no Linkedin - [Acesse aqui.](https://www.linkedin.com/in/fransuelton/)
 - Página no Frontend Mentor - [Acesse aqui.](https://www.frontendmentor.io/profile/Fransuelton)
