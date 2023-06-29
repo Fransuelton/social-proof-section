@@ -13,7 +13,6 @@ body {
     align-items: center;
     height: 100vh;
     font-family: 'League Spartan', sans-serif;
-    max-width: 1440px;
 }
 
 .container {
@@ -95,11 +94,20 @@ body {
     justify-content: center;
     align-items: left;
     width: 30rem;
+    height: 20rem;
     font-size: 1.5rem;
     background-color: var(--feedback-title-color);
     color: white;
     border-radius: 1rem;
     padding: 2rem;
+}
+
+.customer-feedback .feedback:last-child {
+    transform: translateY(1.2rem);
+}
+
+.customer-feedback .feedback:first-child {
+    transform: translateY(-1.5rem);
 }
 
 .feedback .profile {
